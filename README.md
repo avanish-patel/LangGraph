@@ -59,10 +59,13 @@ It serves as a fundamental building block, allowing for us to create modular sys
 
 # Sequential Workflow
 
-In LangGraph, a sequential workflow defines a predetermined path where tasks are executed one after another in a strict, linear order. This means each step in the workflow must be completed before the next one can begin.
+A sequential workflow defines a predetermined path where tasks are executed one after another in a strict, linear order. This means each step in the workflow must be completed before the next one can begin.
 
 # Parallel Workflow
 
-In LangGraph, a parallel workflow refers to a system where multiple nodes or agents are designed to execute simultaneously, each working on a part of the overall task or processing different aspects of the same input data.
+A parallel workflow refers to a system where multiple nodes or agents are designed to execute simultaneously, each working on a part of the overall task or processing different aspects of the same input data.
 
+# Conditional Workflow
+
+A conditional workflow refers to the ability to create dynamic execution paths within a graph-based application, allowing the flow of execution to change based on specific conditions or outcomes. This is achieved through conditional edges, which enable the system to branch to different nodes depending on runtime data or decisions. 
 
